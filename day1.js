@@ -2014,11 +2014,10 @@ const inputs = [
     263
 ];*/
 
-const inputsBy3 = [];
-
-var id = 0;
-var counter = 0;
-var sum;
+let counter = 0;
+let id = 0;
+let inputsBy3 = [];
+let sum;
 
 function largerMeasures(array) {
     array.forEach(function() {
@@ -2040,7 +2039,6 @@ function measuresBy3(array) {
         }
         id++;
     });
-    //console.log(inputsBy3);
     id = 0;
 }
 

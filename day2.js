@@ -1001,19 +1001,19 @@ const inputs = [
     ["forward",3]
 ];
 
-const inputsExample = [
+/*const inputsExample = [
     ["forward", 5],
     ["down", 5],
     ["forward", 8],
     ["up", 3],
     ["down", 8],
     ["forward", 2]
-];
+];*/
 
-var forward = 0;
-var depth = 0;
-var aim = 0;
-var total = 0;
+let forward = 0;
+let depth = 0;
+let aim = 0;
+let total = 0;
 
 function getCoordinates(array) {
     array.forEach((input) => {
